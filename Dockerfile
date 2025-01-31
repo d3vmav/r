@@ -16,4 +16,4 @@ RUN curl -L -o /usr/local/bin/ttyd https://github.com/tsl0922/ttyd/releases/down
 EXPOSE 8080
 
 # Run ttyd on startup
-CMD ["/usr/local/bin/ttyd", "-p", "8080", "login"]
+CMD ["/usr/local/bin/ttyd", "-W", "-p", "8080", "login"]
